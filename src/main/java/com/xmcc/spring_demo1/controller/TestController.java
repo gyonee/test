@@ -13,7 +13,7 @@ public class TestController {
     @GetMapping("/hello")
     public String hello(){
         log.info("hello,Slf4j");
-        return "hello";
+        return "hello222";
     }
 
 }
